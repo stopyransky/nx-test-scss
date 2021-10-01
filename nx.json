@@ -26,5 +26,16 @@
       }
     ]
   },
-  "projects": {}
+  "projects": {
+    "shared-ui": {
+      "tags": []
+    },
+    "test-webb": {
+      "tags": []
+    },
+    "test-webb-e2e": {
+      "tags": [],
+      "implicitDependencies": ["test-webb"]
+    }
+  }
 }
